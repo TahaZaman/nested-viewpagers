@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/put_your_icon_here"
+            android:title="Chat" />
+        <item
+            android:id="@+id/groups"
+            android:icon="@drawable/put_your_icon_here"
+            android:title="Groups" />
+        <item
+            android:id="@+id/games"
+            android:icon="@drawable/put_your_icon_here"
+            android:title="Games" />
+
+        <item
+            android:id="@+id/browse"
+            android:icon="@drawable/put_your_icon_here"
+            android:title="Browse" />
+
+        <item
+            android:id="@+id/peers"
+            android:icon="@drawable/put_your_icon_here"
+            android:title="Active Peers" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/put_your_icon_here"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/put_your_icon_here"
+            android:title="Settings" />
+
+    </group>
+
+
+
+</menu>
