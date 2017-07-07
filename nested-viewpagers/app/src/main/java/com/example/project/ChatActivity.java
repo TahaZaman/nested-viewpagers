@@ -30,7 +30,6 @@ public class ChatActivity extends AppCompatActivity {
         chat = new ArrayList<>();
         chatList = (ListView) findViewById(R.id.chatList);
 
-// get data from the table by the ListAdapter
         customAdapter= new ChatListAdapter(this, R.layout.chat_my_list_item, chat);
         chatList .setAdapter(customAdapter);
 
